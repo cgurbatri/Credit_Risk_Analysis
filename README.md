@@ -85,6 +85,38 @@ Classification report:
 
 <img width="667" alt="Screen Shot 2021-09-19 at 12 10 47 PM" src="https://user-images.githubusercontent.com/45336910/133934657-5c8ba161-9e9e-4677-a2cc-45e0cfb97ddf.png">
 
+**BalancedRandomForestClassifier**
+* Balanced accuracy score: 78%
+* Precision: 4% (high risk), 100% (low risk)
+* Recall: 67% (high risk), 91% (low risk)
 
+Confusion matrix:
+
+<img width="358" alt="Screen Shot 2021-09-19 at 12 14 38 PM" src="https://user-images.githubusercontent.com/45336910/133934781-39232aa8-7412-464c-97cb-779d21670ca6.png">
+
+Classification report:
+
+<img width="659" alt="Screen Shot 2021-09-19 at 12 14 54 PM" src="https://user-images.githubusercontent.com/45336910/133934794-618e1d55-34b8-4e4b-87f3-72dafadc256b.png">
+
+Top 5 important features:
+1. total_rec_prncp
+2. total_rec_int
+3. total_pymnt_inv
+4. total_pymnt
+5. last_pymnt_amnt
+
+**EasyEnsembleClassifier**
+* Balanced accuracy score: 92%
+* Precision: 7% (high risk), 100% (low risk)
+* Recall: 91% (high risk), 94% (low risk)
+
+Confusion matrix:
+
+<img width="365" alt="Screen Shot 2021-09-19 at 12 16 41 PM" src="https://user-images.githubusercontent.com/45336910/133934860-2ba5ca34-5c7f-4588-a1fa-47141bd26e83.png">
+
+
+Classification report:
+
+<img width="656" alt="Screen Shot 2021-09-19 at 12 16 54 PM" src="https://user-images.githubusercontent.com/45336910/133934866-2fde13c0-fd8c-47c4-a29f-9552a81c84b8.png">
 
 
