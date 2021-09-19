@@ -119,4 +119,8 @@ Classification report:
 
 <img width="656" alt="Screen Shot 2021-09-19 at 12 16 54 PM" src="https://user-images.githubusercontent.com/45336910/133934866-2fde13c0-fd8c-47c4-a29f-9552a81c84b8.png">
 
-
+## Summary and Analysis
+* The ensemble classifiers have higher balanced accuracy scores and show increased precision for high risk candidates when compared to the resampling methods.
+* Ensemble classifiers have overall higher f1 scores (which considers both the influence of precision and recall)
+* For this application, banks would most likely not want to incorrectly classify high/low risk candidates and therefore focusing on only recall or only precision is unhelpful. Therefore, I would not recommend any of these models to the bank for credit risk predicition because they all seem to do a poor job of correctly identifying high risk candidates. 
+* 
